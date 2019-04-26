@@ -1,0 +1,71 @@
+.square {
+	border: 2px solid black;
+	height: 140px;
+	width: 30%;
+	float: left;
+	font-size: 70px;
+	text-align: center;
+	//padding-top: 5px;
+}
+
+body {
+	font-family: Annie Use Your Telescope;
+	background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+}
+
+#container {
+	max-width: 500px;
+	margin: auto;
+	margin-top: 1%;
+	width: 100%;
+}
+
+
+h1 {
+	text-align: center;
+	//background: pink;
+	margin-right: 5%;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+.horizontal {
+	border-top: none;
+}
+
+.left {
+	border-left: none;
+}
+
+.right {
+	border-right: none;
+}
+
+.bottom {
+	border-bottom: none;
+}
+
+#player {
+	//background: pink;
+	//display: inline-block;
+	font-size: 30px;
+	font-weight: bold;
+	width: 50%;
+	margin: auto;
+}
+
+.player1 {
+	float: right;
+}
+
+#draw {
+	margin-left: 80px;
+	font-size: 40px;
+}
+
+#reset {
+	margin-top: 5%;
+	margin-left: 40%;
+}	
